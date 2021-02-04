@@ -315,6 +315,7 @@ def Alfven_speed(
     <Quantity 21661.51... m / s>
 
     """
+    # TODO: Add multi ion functionality
     if density.unit.is_equivalent(u.kg / u.m ** 3):
         rho = density
     else:
